@@ -1,0 +1,73 @@
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1rem;
+    
+    /* bg-image here */
+    background-image: linear-gradient(rgba(113, 100, 190, 0.493), rgba(94, 93, 189, 0.356)),url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+
+    background-color:#5b5bbb;
+    color: beige;
+    line-height:2rem;
+
+}
+
+.title-box{
+    margin:auto;
+    width:fit-content;
+    text-align:left;
+    font-size: inherit;
+}
+
+#description{
+    font-style: italic;
+    font-weight: 600;
+}
+
+.form-control{
+    margin:auto;
+    width:fit-content;
+    text-align:left;
+    background-color:rgba(30, 30, 77, 0.8);
+    border: 2rem;
+    border-radius: 5px;
+    padding: 2rem;
+    /* background-image:inherit ; */
+}
+
+.form-group{
+    display: grid;
+    margin: 0 auto;
+    padding: 0.5rem 0;
+    
+}
+
+#name, #email, #number, #dropdown, #radio-btn-grp, #dropdown-2, #suggestion { 
+    padding:0.7rem;
+    font-size: 1rem;
+    border-radius: 0.3rem;
+}
+
+#dropdown, #dropdown-2{
+    width: 665px;
+    /* color: rgba(75, 73, 95, 0.719); */
+    padding:0.7rem;
+    font-size: 1rem;
+    border-radius: 0.3rem;
+}
+
+
+#submit{
+    background-color:rgba(47, 194, 104, 0.973);
+    color:white;
+    padding:0.7rem;
+    font-size: 1.2rem;
+    border-radius: 0.3rem;
+}
+
+#submit:hover{
+    color:rgb(4, 2, 7);
+    background-color:rgb(202, 192, 170);   
+}
