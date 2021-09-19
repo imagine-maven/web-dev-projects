@@ -4,21 +4,29 @@
 body{
     font-family: 'Poppins', sans-serif;
     font-size: 1.1rem;
-    
-    /* bg-image here */
-    background-image: linear-gradient(rgba(113, 100, 190, 0.493), rgba(94, 93, 189, 0.356)),url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
-
-    background-color:#5b5bbb;
     color: beige;
     line-height:2rem;
+    
+    /* bg-image here */
+    /* make a background image responsive relative to viewport */
+
+    background-image: linear-gradient(rgba(113, 100, 190, 0.493), rgba(94, 93, 189, 0.356)),url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color:#5b5bbb;
+    
 
 }
+
 
 .title-box{
     margin:auto;
     width:fit-content;
     text-align:left;
     font-size: inherit;
+    padding-left: 1rem;
 }
 
 #description{
